@@ -20,6 +20,6 @@ Index_db.json - the inverted index of the corpus, stores the term and correspond
 index_score_db.json - is the tf-idf database for each word
 
 
-![Index Creation](/IR-Text-Document-Retrieval/demo_images/index.JPG)
+![Index Creation](/demo_images/index.JPG)
 
-![Index Read and Query](/IR-Text-Document-Retrieval/demo_images/query.JPG)
+![Index Read and Query](/demo_images/query.JPG)
