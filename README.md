@@ -1,8 +1,7 @@
 ##A Simple Text Retrieval System
 
-Documents and query are represented as vectors. Text Documents are retrieved based on Cosine similarity of document and query vector, which is an array of TF-Idf score of the terms.
+Documents and query are represented as vectors. The retrieved Text Documents are ranked based on Cosine similarity of document and query vector, which are represented an array of TF-Idf score of the terms.
 
-For fun, I have included a Prpgress bar in the createIndex.py code.
 
 First run the create index program:
 

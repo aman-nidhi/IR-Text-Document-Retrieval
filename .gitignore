@@ -1,0 +1,11 @@
+# ###folders
+verify/
+data/
+demo_images/
+
+# ###files
+__pycache__
+*.txt
+*.pdf
+*.docx
+*.ppt
