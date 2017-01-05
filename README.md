@@ -1,6 +1,6 @@
 ##A Simple Text File Retrieval System
 
-Documents and query are represented as vectors. The retrieved Text Documents are ranked based on Cosine similarity of document and query vector, which are represented an array of TF-Idf score of the terms.
+Documents and query are represented as vectors. The retrieved Text Files are ranked based on Cosine similarity of document vectors and the query vector. The vector representation of any document is an array of Tf-Idf score of the terms present in the respective document.
 
 
 First run the create index program:
@@ -13,15 +13,13 @@ Then run the query index program:
         
 To run the query file, specify the the type of query 
 
-pq - phrase query
+pq -	phrase query
 
-ftq - free text query
+ftq -	free text query
 
-english_stopwords.txt is the stopwords file
-
-Index_db.json - the inverted index of the corpus, stores the term and corresponding posting list
-
-index_score_db.json - is the tf-idf database for each word
+english_stopwords.txt :is the stopwords file
+Index_db.json :is the inverted index of the corpus, stores the term and corresponding posting list
+index_score_db.json :is the tf-idf database for each word
 
 
 
